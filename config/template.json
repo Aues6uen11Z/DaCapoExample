@@ -3,13 +3,10 @@
     "General": {
       "_Base": {
         "work_dir": {
-          "value": "./repos/DaCapoExample",
-          "disabled": true,
-          "help": "You can customize built-in settings"
+          "value": "./repos/DaCapoExample"
         },
         "config_path": {
-          "value": "./repos/DaCapoExample/config/config.json",
-          "disabled": true
+          "value": "./repos/DaCapoExample/config/config.json"
         }
       },
       "Group1": {
@@ -31,6 +28,11 @@
           "type": "checkbox",
           "value": true,
           "help": "type \"checkbox\" shows a checkbox"
+        },
+        "folder": {
+          "type": "folder",
+          "value": "./repos/DaCapoExample",
+          "help": "type \"folder\" shows a text box with a browse button"
         }
       }
     }
@@ -40,8 +42,7 @@
       "_Base": {
         "priority": {
           "value": 1,
-          "disabled": true,
-          "help": "0-31, higher number means higher priority"
+          "disabled": true
         }
       },
       "Group2": {
