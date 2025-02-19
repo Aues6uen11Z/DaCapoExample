@@ -6,7 +6,7 @@
           "value": "./repos/DaCapoExample"
         },
         "config_path": {
-          "value": "./repos/DaCapoExample/config/config.json"
+          "value": "./repos/DaCapoExample/config.json"
         }
       },
       "Group1": {
@@ -19,7 +19,10 @@
           "help": "type \"input\" shows a text box"
         },
         "select": {
-          "option": ["option1", "option2"],
+          "option": [
+            "option1",
+            "option2"
+          ],
           "type": "select",
           "value": "option1",
           "help": "type \"select\" shows a dropdown list"
@@ -74,6 +77,14 @@
           "value": "",
           "type": "input",
           "hidden": true
+        }
+      }
+    },
+    "Task3": {
+      "Group4": {
+        "setting1": {
+          "value": "",
+          "type": "input"
         }
       }
     }

@@ -4,7 +4,7 @@ Project:
       work_dir:
         value: ./repos/DaCapoExample
       config_path:
-        value: ./repos/DaCapoExample/config/config.json
+        value: ./repos/DaCapoExample/config.json
     Group1:
       _help:
         value: This group shows 3 types of setting
@@ -56,3 +56,8 @@ Menu:
         value: ""
         type: input
         hidden: true
+  Task3:
+    Group4:
+      setting1:
+        value: ""
+        type: input
