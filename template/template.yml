@@ -44,6 +44,9 @@ Menu:
         type: input
         help: settings can be hidden
         hidden: true
+      setting3:
+        value: ""
+        type: input
   Task2:
     Group3:
       _help:
