@@ -16,7 +16,7 @@ parser.add_argument('config')
 parser.add_argument('task_name')
 args = parser.parse_args()
 
-with open('config/'+args.config, 'r') as f:
+with open(args.config, 'r') as f:
     config = json.load(f)
 
 logger.info('Now running task: ' + args.task_name)

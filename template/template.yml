@@ -7,7 +7,7 @@ Project:
         value: ./repos/DaCapoExample/config.json
     Group1:
       _help:
-        value: This group shows 3 types of setting
+        value: This group shows 4 types of setting
       input:
         type: input
         value: someting

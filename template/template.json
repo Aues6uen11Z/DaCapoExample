@@ -11,7 +11,7 @@
       },
       "Group1": {
         "_help": {
-          "value": "This group shows 3 types of setting"
+          "value": "This group shows 4 types of setting"
         },
         "input": {
           "type": "input",
@@ -19,10 +19,7 @@
           "help": "type \"input\" shows a text box"
         },
         "select": {
-          "option": [
-            "option1",
-            "option2"
-          ],
+          "option": ["option1", "option2"],
           "type": "select",
           "value": "option1",
           "help": "type \"select\" shows a dropdown list"
