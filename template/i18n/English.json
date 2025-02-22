@@ -26,6 +26,10 @@
               "folder": {
                 "name": "folder",
                 "help": "type \"folder\" shows a text box with a browse button"
+              },
+              "file": {
+                "name": "file",
+                "help": "type \"file\" shows a text box with a browse button"
               }
             }
           }

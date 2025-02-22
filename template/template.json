@@ -19,7 +19,10 @@
           "help": "type \"input\" shows a text box"
         },
         "select": {
-          "option": ["option1", "option2"],
+          "option": [
+            "option1",
+            "option2"
+          ],
           "type": "select",
           "value": "option1",
           "help": "type \"select\" shows a dropdown list"
@@ -33,6 +36,11 @@
           "type": "folder",
           "value": "./repos/DaCapoExample",
           "help": "type \"folder\" shows a text box with a browse button"
+        },
+        "file": {
+          "type": "file",
+          "value": "./repos/DaCapoExample/template/template.yml",
+          "help": "type \"file\" shows a text box with a browse button"
         }
       }
     }

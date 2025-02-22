@@ -27,6 +27,10 @@ Project:
         type: folder
         value: ./repos/DaCapoExample
         help: type "folder" shows a text box with a browse button
+      file:
+        type: file
+        value: ./repos/DaCapoExample/template/template.yml
+        help: type "file" shows a text box with a browse button
 Menu:
   Task1:
     _Base:
