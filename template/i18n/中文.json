@@ -1,0 +1,98 @@
+{
+  "Menu": {
+    "name": "菜单",
+    "tasks": {
+      "Task1": {
+        "groups": {
+          "Group2": {
+            "help": "",
+            "items": {
+              "setting1": {
+                "help": "设置可以被禁用",
+                "name": "设置1"
+              },
+              "setting2": {
+                "help": "设置可以被隐藏",
+                "name": "设置2"
+              },
+              "setting3": {
+                "help": "",
+                "name": "设置3"
+              }
+            },
+            "name": "选项组2"
+          }
+        },
+        "name": "任务1"
+      },
+      "Task2": {
+        "groups": {
+          "Group3": {
+            "help": "如果所有设置都被隐藏，该选项组将被隐藏",
+            "items": {
+              "setting1": {
+                "help": "",
+                "name": "设置1"
+              },
+              "setting2": {
+                "help": "",
+                "name": "设置2"
+              }
+            },
+            "name": "选项组3"
+          }
+        },
+        "name": "任务2"
+      },
+      "Task3": {
+        "groups": {
+          "Group4": {
+            "help": "",
+            "items": {
+              "setting1": {
+                "help": "",
+                "name": "设置1"
+              }
+            },
+            "name": "选项组4"
+          }
+        },
+        "name": "任务3"
+      }
+    }
+  },
+  "Project": {
+    "tasks": {
+      "General": {
+        "groups": {
+          "Group1": {
+            "help": "该选项组展示4种设置类型",
+            "items": {
+              "checkbox": {
+                "help": "类型\"checkbox\"显示一个复选框",
+                "name": "复选框"
+              },
+              "folder": {
+                "help": "类型\"folder\"显示一个带浏览按钮的文本框",
+                "name": "文件夹"
+              },
+              "input": {
+                "help": "类型\"input\"显示一个文本框",
+                "name": "输入框"
+              },
+              "select": {
+                "help": "类型\"select\"显示一个下拉列表",
+                "name": "选择框",
+                "options": {
+                  "option1": "选项1",
+                  "option2": "选项2"
+                }
+              }
+            },
+            "name": "选项组1"
+          }
+        }
+      }
+    }
+  }
+}

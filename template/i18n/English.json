@@ -1,0 +1,98 @@
+{
+  "Project": {
+    "tasks": {
+      "General": {
+        "groups": {
+          "Group1": {
+            "name": "Group1",
+            "help": "This group shows 4 types of setting",
+            "items": {
+              "input": {
+                "name": "input",
+                "help": "type \"input\" shows a text box"
+              },
+              "select": {
+                "name": "select",
+                "help": "type \"select\" shows a dropdown list",
+                "options": {
+                  "option1": "option1",
+                  "option2": "option2"
+                }
+              },
+              "checkbox": {
+                "name": "checkbox",
+                "help": "type \"checkbox\" shows a checkbox"
+              },
+              "folder": {
+                "name": "folder",
+                "help": "type \"folder\" shows a text box with a browse button"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Menu": {
+    "name": "Menu",
+    "tasks": {
+      "Task1": {
+        "name": "Task1",
+        "groups": {
+          "Group2": {
+            "name": "Group2",
+            "help": "",
+            "items": {
+              "setting1": {
+                "name": "setting1",
+                "help": "settings can be disabled"
+              },
+              "setting2": {
+                "name": "setting2",
+                "help": "settings can be hidden"
+              },
+              "setting3": {
+                "name": "setting3",
+                "help": ""
+              }
+            }
+          }
+        }
+      },
+      "Task2": {
+        "name": "Task2",
+        "groups": {
+          "Group3": {
+            "name": "Group3",
+            "help": "If all settings are hidden, the group will be hidden",
+            "items": {
+              "setting1": {
+                "name": "setting1",
+                "help": ""
+              },
+              "setting2": {
+                "name": "setting2",
+                "help": ""
+              }
+            }
+          }
+        }
+      },
+      "Task3": {
+        "name": "Task3",
+        "groups": {
+          "Group4": {
+            "name": "Group4",
+            "help": "",
+            "items": {
+              "setting1": {
+                "name": "setting1",
+                "help": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
