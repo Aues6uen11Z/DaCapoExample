@@ -1,3 +1,4 @@
+from pathlib import Path
 import anyconfig
 
 
@@ -73,6 +74,11 @@ for menu_name, menu_conf in tpl.items():
                     }
                     for option_name in item_conf.get("option", []):
                         item_trans[item_name].setdefault("options", {})[option_name] = option_name
+
+if Path(trans_path).exists():
+    with open(trans_path, 'r', encoding='utf-8') as f:
+        old_trans = anyconfig.load(f)
+    anyconfig.merge(trans, old_trans)
 
 with open(trans_path, 'w', encoding='utf-8') as f:
     anyconfig.dump(trans, f, ensure_ascii=False, indent=2, allow_unicode=True)
