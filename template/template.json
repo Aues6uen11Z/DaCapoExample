@@ -11,7 +11,7 @@
       },
       "Group1": {
         "_help": {
-          "value": "This group shows 4 types of setting"
+          "value": "This group shows 5 types of setting"
         },
         "input": {
           "type": "input",
